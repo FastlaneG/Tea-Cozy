@@ -11,15 +11,16 @@
 
 
 /* Header Styles */
-/*header {
+header {
   position: fixed;
   z-index: 1;
   width: 100%;
-}*/
+ }
 
 header img {
   height: 50px;
   padding-left: 10px;
+
 }
 
 .container {
@@ -28,6 +29,7 @@ header img {
   border-bottom: solid 1px seashell;
   width: 100%;
   height: 69px;
+  
 }
 
 .mission {
@@ -55,6 +57,52 @@ header img {
   background-color: black;
   width: 1200px;
   text-align: center;
-  margin: 20px 20px;
+  margin: 15px;
+}
 
+.banner h2 {
+  font-size: 40px;
+}
+
+.banner h4 {
+  font-size: 22px;
+}
+
+
+/* Start Tea Section */
+#tea-section {
+  width: 960px;
+  text-align: center;
+  margin: auto;
+}
+
+#tea-section h2 {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+#tea-section h3 {
+  padding-bottom: 16px;
+  font-size: 22px;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tea-section .tea-items {
+  width: 30%;
+  margin: 8px;
+}
+
+#tea-section .tea-items img{
+  width: 100%;
+}
+
+.tea-items p {
+  font-size: 22px;
+  padding: 10px;
 }
